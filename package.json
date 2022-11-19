@@ -1,5 +1,5 @@
 {
-  "name": "thuviensogiaodien",
+  "name": "thuvienso-frontend",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -21,12 +21,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tinhvan170203/thuviensogiaodien.git"
+    "url": "git+https://github.com/tinhvan170203/thuvienso-frontend.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tinhvan170203/thuviensogiaodien/issues"
+    "url": "https://github.com/tinhvan170203/thuvienso-frontend/issues"
   },
-  "homepage": "https://github.com/tinhvan170203/thuviensogiaodien#readme"
+  "homepage": "https://github.com/tinhvan170203/thuvienso-frontend#readme"
 }
