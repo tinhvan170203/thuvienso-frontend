@@ -91,7 +91,6 @@ dist
 # vuepress build output
 .vuepress/dist
 
-package-lock
 
 # Serverless directories
 .serverless/
@@ -104,3 +103,5 @@ package-lock
 
 # TernJS port file
 .tern-port
+
+package-lock.json
