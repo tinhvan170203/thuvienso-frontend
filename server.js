@@ -14,7 +14,7 @@ app.use(express.json());
 app.use(basePath + "/", express.static(path.resolve(__dirname + "/build")));
 
 app.get("*", (request, response) => {
-  response.sendFile(path.resolve(__dirname + "build/index.html"));
+  response.sendFile(path.resolve(__dirname + "/build/index.html"));
 });
 
 
