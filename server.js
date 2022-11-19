@@ -13,7 +13,7 @@ app.use(express.json());
 //cấu hình chạy reactjs trên node server
 app.use(express.static(path.resolve(__dirname + "/build")));
 
-app.get("/*", (request, response) => {
+app.get("*", (request, response) => {
   response.sendFile(path.resolve(__dirname + "build/index.html"));
 });
 //
