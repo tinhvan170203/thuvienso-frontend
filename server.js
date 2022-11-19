@@ -11,12 +11,11 @@ app.use(cors());
 app.use(express.json());
 
 //cấu hình chạy reactjs trên node server
-app.use(express.static(path.resolve(__dirname + "/build")));
+app.use(basePath + "/", express.static(path.resolve(__dirname + "/build")));
 
 app.get("*", (request, response) => {
-  response.sendFile(path.resolve(__dirname + "/build/index.html"));
+  response.sendFile(path.resolve(__dirname + "build/index.html"));
 });
-//
 
 
 app.listen(port, () => {
